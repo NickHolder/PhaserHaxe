@@ -25,7 +25,7 @@ extern class Group {
 	/**
 	 * @param	frame can be Int or String
 	 */
-	function create(x:Float, y:Float, key:String, frame:Dynamic, ?exists:Bool):Sprite;
+	function create(x:Float, y:Float, key:String, ?frame:Dynamic, ?exists:Bool):Sprite;
 	/**
 	 * @param	frame can be Int or String
 	 */
